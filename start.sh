@@ -15,9 +15,6 @@ fi
 
 /vrising/steamcmd/steamcmd.sh +force_install_dir /vrising +login anonymous +app_update 1829350 +quit
 
-SAVE_NAME="t3stn3t"
-INSTANCE_NAME="T3stN3t Now we have Vampires"
-
 rm -f /tmp/.X1-lock
 Xvfb :1 -screen 0 800x600x24 &
 export WINEDLLOVERRIDES="mscoree,mshtml="
